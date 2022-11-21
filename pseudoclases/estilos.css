@@ -1,0 +1,62 @@
+
+table {
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;/*UNIR LAS TABLAS*/
+}
+caption{
+    padding-top: 12px;
+    font-size:larger;
+
+}
+/*BORDERS*/
+table, th, td {
+    
+    border: 1px solid;
+    border-collapse: collapse;/*UNIR LAS TABLAS*/
+}
+  
+td, th {
+    text-align: left;
+    padding: 12px;
+}
+tr:nth-child(even){
+    color: white;
+}
+tr:nth-child(odd){
+    color: #001aff;  
+}
+
+
+/*ALTERNAR COLORES ENTRE FILAS PARES "odd"IMPARES*/ 
+tr:nth-child(even){
+    border-color: #ffffff;
+    background-color: #001aff
+    
+}
+tr:nth-child(odd){
+    border-color: #ffffff;
+    background-color: #ffffff
+   
+}
+
+th{
+    background-color: red;
+    color: white;
+    border-bottom: solid 5px;
+    
+} 
+/*SUBRAYAR LOS ELEMNTOS QUE MARCA EL RATON*/
+tr:hover td{
+    background-color: rgb(213, 4, 255);
+}
+tr{
+    border-color: #ffffff;
+}
+#ultFila{
+    background-color: red;
+    color: white;
+    border-top: solid 5px;
+}
